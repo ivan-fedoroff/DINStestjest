@@ -1,0 +1,35 @@
+{
+  "name": "dinstestjest",
+  "version": "0.1.0",
+  "description": "rest api testing",
+  "main": "index.js",
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "test": "npx jest --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivan-fedoroff/DINStestjest.git"
+  },
+  "keywords": [
+    "DINS",
+    "jest",
+    "test"
+  ],
+  "author": "Fedorov Ivan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivan-fedoroff/DINStestjest/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/ivan-fedoroff/DINStestjest#readme",
+  "devDependencies": {
+    "eslint": "^8.4.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^25.3.0",
+    "jest": "^27.4.3"
+  }
+}
